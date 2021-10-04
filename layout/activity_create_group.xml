@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateGroupActivity">
+
+    <TextView
+        android:id="@+id/regstertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Group"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/groupnameLayout"
+        android:layout_below="@+id/regstertext">
+        <EditText
+            android:id="@+id/groupEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Group Name"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_baseline_create_24"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/groupdescriptionLayout"
+        android:layout_below="@+id/groupnameLayout">
+        <EditText
+            android:id="@+id/groupdescriptionEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Group Description"
+            android:inputType="textPersonName"
+            android:maxLines="4"
+            android:lines="4"
+            android:drawableLeft="@drawable/ic_baseline_create_24"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#60ffffff"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:enabled="false"
+        android:layout_below="@+id/groupdescriptionLayout"
+        android:background="@drawable/color_gradient_1"/>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#075E54</color>
+    <color name="colorPrimaryDark">#054D44</color>
+    <color name="colorAccent">#054D44</color>
+
+    <color name="lightGray">#D3D3D3</color>
+    <color name="colorBlue">#02274D</color>
+
+    <color name="colorRed">#FF0000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSky">#00BFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorPurple">#7719AA</color>
+    <color name="colorLightBrown">#B5651D</color>
+    <color name="colorLightGrey">#696969</color>
+    <color name="colorLightBlack">#C0C0C0</color>
+    <color name="color1">#9B182E</color>
+    <color name="color2">#A23794</color>
+    <color name="color3">#1D759B</color>
+    <color name="color4">#07620A</color>
+    <color name="color5">#78540D</color>
+    <color name="color6">#0E5F65</color>
+    <color name="color7">#710B45</color>
+
+    <!-- Native ads color -->
+
+    <color name="ad_attribution_background_color">#FFA500</color>
+    <color name="ad_background_color">#FFFFF0</color>
+    <color name="ad_heading_color">#00008B</color>
+    <color name="ad_body_text_color">#696969</color>
+    <color name="ad_button_color">#6200EE</color>
+    <color name="ad_button_text_color">#FFFFFF</color>
+    <color name="chatrightcolor">#E1FFC7</color>
+    <color name="textColor">#212121</color>
+    <color name="GrouptextColor">#282828</color>
+
+
+</resources>
